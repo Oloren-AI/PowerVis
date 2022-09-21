@@ -8,13 +8,24 @@ Paste the following command into your terminal:
 mkdir -p /Users/$USER/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef && curl https://raw.githubusercontent.com/Oloren-AI/PowerVis/main/powervis.xml  > /Users/$USER/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/oloren-ppt.xml
 ```
 
-This command drops the add in's XML into your powerpoint add ins folder.
+Then completely quit your powerpoint application and reopen it!
+
+This command drops  [the add in's XML](powervis.xml) into your powerpoint add ins folder.
 
 
+## How to Launch Plugin
+Go to insert tab in powerpoint, click my add-ins, click Oloren PPT Visualize. Then, follow the instructions to paste a data URL to see a visualization.
+
+![](assets/ppt-3.png)
 
 ## Usage Screnshots
 ![](assets/ppt-1.png)
 ![](assets/ppt-2.png)
 
-## Installation on Windows/Linux
-Unfortunately, installation on thse platforms is not currently supported.
+## FAQ
+
+**How can I modify a visualization?**
+Just delete the visualization and open it again!
+
+**Can I install this on Windows/Linux?**
+We don't have public support for this yet - but send us an email at support@oloren.ai if you want to get beta access.
