@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xsi:type="ContentApp">
+  <Id>03648872-fa1f-4c2d-b9aa-29ce4d0a2bbc</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Oloren AI</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Oloren PPT Visualize"/>
+  <Description DefaultValue="Open Oloren Visualizations in PPT"/>
+  <IconUrl DefaultValue="https://oloren-ppt-plugin.web.app/assets/oce_logo.png"/>
+  <HighResolutionIconUrl DefaultValue="https://oloren-ppt-plugin.web.app/assets/oce_logo.png"/>
+  <SupportUrl DefaultValue="https://www.oloren.ai"/>
+  <AppDomains>
+    <AppDomain>https://www.oloren.ai</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Presentation"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://oloren-ppt-plugin.web.app/taskpane.html"/>
+    <RequestedWidth>900</RequestedWidth>
+    <RequestedHeight>500</RequestedHeight>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
