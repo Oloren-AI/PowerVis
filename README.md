@@ -13,9 +13,12 @@ Then completely quit your powerpoint application and reopen it!
 This command drops  [the add in's XML](powervis.xml) into your powerpoint add ins folder.
 
 
-## How to Launch Plugin
+## Quickstart
 
-Go to insert tab in powerpoint, click ***the dropdown to the right of the My Add-ins button***, click Oloren PPT Visualize. Then, follow the instructions to paste a data URL and see a visualization.
+Make sure you restarted powerpoint after installing plug in.
+1. Open a new powerpoint and switch to the insert tab
+2. Click ***the dropdown to the right of the My Add-ins button***
+3. Follow the instructions to paste a data URL and see a visualization
 
 ![](assets/ppt-3.png)
 
