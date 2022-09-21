@@ -25,7 +25,10 @@ Go to insert tab in powerpoint, click my add-ins, click Oloren PPT Visualize. Th
 ## FAQ
 
 **How can I modify a visualization?**
-Just delete the visualization and open it again!
+Just delete the visualization and add a new pane in its place.
+
+**Can I create multiple visualizations in one slide?**
+Yep, just use the insert menu twice.
 
 **Can I install this on Windows/Linux?**
 We don't have public support for this yet - but send us an email at support@oloren.ai if you want to get beta access.
